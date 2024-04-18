@@ -10,8 +10,8 @@ def Attendance_check():
             total_attendance+=1
         else:
             total_absent+=1
-    print("total leaves in a month : ",total_absent)
-    print("Total present in a month : ",total_attendance)
+    print("total leaves in a month is : ",total_absent)
+    print("Total present in a month is : ",total_attendance)
     
 
 Attendance_check()
